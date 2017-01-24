@@ -11,7 +11,7 @@ from PredefinedEmbedding import PredefinedEmbedding
 from Encoding import encoding
 import argparse
 from keras.preprocessing import sequence
-from keras.models import Sequential, Graph, Model
+from keras.models import Sequential,  Model
 from keras.layers import Input, merge, Merge, Dense, TimeDistributedDense, Dropout, Activation, RepeatVector, Permute, Reshape, RepeatVector, Flatten
 from keras.layers.convolutional import Convolution1D, MaxPooling1D, AveragePooling1D
 from keras.layers.embeddings import Embedding
